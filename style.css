@@ -1,0 +1,62 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.line-height2 {
+  line-height: 2;
+}
+.table-education {
+  border: 1px solid black;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table-education th {
+  border: 1px solid black;
+  padding: 8px;
+}
+.table-education td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.table-work {
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table-work td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.blue {
+  background-color: rgb(216, 242, 252);
+}
+img {
+  object-fit: cover;
+  object-position: 0px -30px;
+}
+.container {
+  width: 600px;
+  height: 700px;
+  border: 2px groove;
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+input {
+  width: 500px;
+  height: 20px;
+}
+select {
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+}
